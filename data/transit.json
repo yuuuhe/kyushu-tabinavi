@@ -1,0 +1,285 @@
+{
+ "note": "代表的な所要時間の目安（乗換待ちを含まない）。本数・最新ダイヤは乗換案内で要確認",
+ "source": "docs/02_kyushu_research.md 3章＋手入力",
+ "edges": [
+  {
+   "a": "fukuoka-airport",
+   "b": "hakata",
+   "min": 5,
+   "max": 10,
+   "how": "福岡市地下鉄空港線",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "hakata",
+   "b": "kokura",
+   "min": 15,
+   "max": 20,
+   "how": "山陽新幹線",
+   "note": "JR九州のパスは対象外になりやすい（要確認）。在来線特急なら約45〜60分",
+   "realistic": true
+  },
+  {
+   "a": "hakata",
+   "b": "saga",
+   "min": 35,
+   "max": 40,
+   "how": "特急かもめ・みどり",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "saga",
+   "b": "takeo",
+   "min": 25,
+   "max": 30,
+   "how": "特急",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "hakata",
+   "b": "takeo",
+   "min": 60,
+   "max": 65,
+   "how": "特急リレーかもめ",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "takeo",
+   "b": "nagasaki",
+   "min": 25,
+   "max": 30,
+   "how": "西九州新幹線",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "hakata",
+   "b": "nagasaki",
+   "min": 80,
+   "max": 90,
+   "how": "特急リレーかもめ＋西九州新幹線（武雄温泉乗換）",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "hakata",
+   "b": "sasebo",
+   "min": 105,
+   "max": 115,
+   "how": "特急みどり",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "sasebo",
+   "b": "nagasaki",
+   "min": 90,
+   "max": 110,
+   "how": "快速シーサイドライナー",
+   "note": "本数・時間は要確認",
+   "realistic": true
+  },
+  {
+   "a": "hakata",
+   "b": "kumamoto",
+   "min": 35,
+   "max": 50,
+   "how": "九州新幹線",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "hakata",
+   "b": "kagoshima",
+   "min": 80,
+   "max": 100,
+   "how": "九州新幹線",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "kumamoto",
+   "b": "kagoshima",
+   "min": 45,
+   "max": 50,
+   "how": "九州新幹線",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "hakata",
+   "b": "beppu",
+   "min": 110,
+   "max": 120,
+   "how": "特急ソニック",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "hakata",
+   "b": "oita",
+   "min": 120,
+   "max": 130,
+   "how": "特急ソニック",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "kokura",
+   "b": "beppu",
+   "min": 65,
+   "max": 75,
+   "how": "特急ソニック",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "kokura",
+   "b": "oita",
+   "min": 75,
+   "max": 85,
+   "how": "特急ソニック",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "beppu",
+   "b": "oita",
+   "min": 10,
+   "max": 15,
+   "how": "JR日豊本線",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "hakata",
+   "b": "yufuin",
+   "min": 130,
+   "max": 140,
+   "how": "特急ゆふいんの森／高速バス",
+   "note": "ゆふいんの森は全席指定・要予約",
+   "realistic": true
+  },
+  {
+   "a": "oita",
+   "b": "yufuin",
+   "min": 50,
+   "max": 60,
+   "how": "JR久大本線",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "yufuin",
+   "b": "beppu",
+   "min": 50,
+   "max": 60,
+   "how": "路線バス",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "hakata",
+   "b": "miyazaki",
+   "min": 180,
+   "max": 200,
+   "how": "九州新幹線→新八代で高速バス「B&Sみやざき」",
+   "note": "高速バス直行は約4時間半",
+   "realistic": true
+  },
+  {
+   "a": "kumamoto",
+   "b": "aso",
+   "min": 70,
+   "max": 100,
+   "how": "JR豊肥本線",
+   "note": "本数少なめ",
+   "realistic": true
+  },
+  {
+   "a": "kumamoto",
+   "b": "takachiho",
+   "min": 180,
+   "max": 190,
+   "how": "特急バス「たかちほ号」",
+   "note": "要予約・1日数本",
+   "realistic": true
+  },
+  {
+   "a": "aso",
+   "b": "takachiho",
+   "min": 0,
+   "max": 0,
+   "how": "",
+   "note": "バスの本数がごく少ない。車が現実的（約1時間10分）",
+   "realistic": false
+  },
+  {
+   "a": "kumamoto",
+   "b": "nagasaki",
+   "min": 120,
+   "max": 130,
+   "how": "新幹線＋特急（新鳥栖・武雄温泉経由）",
+   "note": "島原経由フェリーもあり",
+   "realistic": true
+  },
+  {
+   "a": "kumamoto",
+   "b": "beppu",
+   "min": 180,
+   "max": 190,
+   "how": "特急「九州横断特急」（阿蘇経由）",
+   "note": "1日数本",
+   "realistic": true
+  },
+  {
+   "a": "aso",
+   "b": "beppu",
+   "min": 110,
+   "max": 130,
+   "how": "特急「九州横断特急」",
+   "note": "1日数本・時間は要確認",
+   "realistic": true
+  },
+  {
+   "a": "aso",
+   "b": "yufuin",
+   "min": 0,
+   "max": 0,
+   "how": "",
+   "note": "直通の公共交通は限られる。車が現実的（約1時間30分、やまなみハイウェイ）",
+   "realistic": false
+  },
+  {
+   "a": "oita",
+   "b": "miyazaki",
+   "min": 190,
+   "max": 200,
+   "how": "特急にちりん",
+   "note": "",
+   "realistic": true
+  },
+  {
+   "a": "miyazaki",
+   "b": "takachiho",
+   "min": 150,
+   "max": 180,
+   "how": "特急で延岡→バス",
+   "note": "延岡からのバスは本数少",
+   "realistic": true
+  },
+  {
+   "a": "miyazaki",
+   "b": "kagoshima",
+   "min": 130,
+   "max": 160,
+   "how": "特急きりしま／高速バス",
+   "note": "",
+   "realistic": true
+  }
+ ]
+}
